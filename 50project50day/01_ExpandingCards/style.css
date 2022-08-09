@@ -29,6 +29,7 @@ body {
     overflow: hidden;
     border-radius: 50px;
     margin-right: 20px;
+    cursor: pointer;
     transition: ease-in-out .8s;
 }
 
@@ -60,6 +61,17 @@ img {
     color: #fff;
     font-size: 24px;
     font-weight: bold;
+    -webkit-animation: show 1.4s ease-in-out;
+}
+
+@-webkit-keyframes show {
+    0% {
+        opacity: 0;    
+    }
+    100% {
+        opacity: 1;
+    }
+
 }
 
 
